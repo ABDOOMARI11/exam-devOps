@@ -1,8 +1,7 @@
 # Log Analyzer CLI
 
 ## Auteur
-Nom Prénom
-
+EL AOUMARI Abdelmoughith
 ## Description
 Petit outil CLI en Python pour analyser les fichiers `.log.txt`.  
 Il compte les erreurs, warnings et messages d'information, puis génère un rapport.
