@@ -1,0 +1,5 @@
+[INFO] Server démarré à 10:00
+[WARNING] Mémoire basse
+[ERROR] Impossible de se connecter à la base de données
+[INFO] Requête reçue
+[ERROR] Timeout dépassé
