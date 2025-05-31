@@ -9,7 +9,7 @@ on:
 
 # Variables d'environnement globales
 env:
-  PYTHON_VERSION: '3.9'
+  PYTHON_VERSION: '3.8'
 
 # Définition des jobs
 jobs:
@@ -21,7 +21,7 @@ jobs:
     # Matrice pour tester plusieurs versions de Python
     strategy:
       matrix:
-        python-version: ['3.8', '3.9', '3.10', '3.11']
+        python-version: ['3.8',  '3.10', '3.11']
     
     steps:
     # Étape 1: Récupération du code
@@ -109,7 +109,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.8'
     
     - name: Installation des outils de build
       run: |
@@ -141,7 +141,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.8'
     
     - name: Installation de Bandit
       run: |
@@ -175,7 +175,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.8'
     
     - name: Download des artifacts
       uses: actions/download-artifact@v4
